@@ -1,6 +1,6 @@
 # vue-infinite-scroll
-基于vue的轻量的上拉加加载更多组件。
-
+* 基于vue的轻量的上拉加加载更多组件。
+* 占用内存小，性能好，样式好看，可扩展性强
 
 ## Install
 ```javascript
@@ -9,9 +9,6 @@ cnpm i vue2-infinite-scroll --save  //国内镜像
 
 ```
 
-## vue-calendar-component
-* 基于 vue 2.0 开发的轻量，高性能日历组件
-* 占用内存小，性能好，样式好看，可扩展性强
 
 ##  Usage
 ```javascript
