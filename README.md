@@ -7,6 +7,7 @@
 npm i vue2-infinite-scroll --save
 cnpm i vue2-infinite-scroll --save  //国内镜像
 
+```
 
 ## vue-calendar-component
 * 基于 vue 2.0 开发的轻量，高性能日历组件
@@ -14,11 +15,9 @@ cnpm i vue2-infinite-scroll --save  //国内镜像
 
 ##  Usage
 ```javascript
-//在需要使用的文件中引入
-
-
-
+//在需要使用的vue文件中引入!
 ```
+
 
 ### API
 
