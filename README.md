@@ -12,7 +12,8 @@ cnpm i vue2-infinite-scroll --save  //国内镜像
 
 ##  Usage
 ```javascript
-//在需要使用的vue文件中引入!
+//在需要使用的vue文件中引入
+
 ```
 
 
