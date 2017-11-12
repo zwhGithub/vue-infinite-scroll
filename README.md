@@ -12,8 +12,28 @@ cnpm i vue2-infinite-scroll --save  //国内镜像
 
 ##  Usage
 ```javascript
-//在需要使用的vue文件中引入
 
+//放在页面的最底部
+<Infinite v-on:infinite="infiniteMore" ></Infinite>
+
+import Infinite from "vue2-infinite-scroll";
+
+  components: {
+    Infinite
+  }
+  
+  
+    infiniteMore($state) {
+      this.axios .get("http://39.108.152.248:18080/member/v1/content/headline/list?type=3&pageSize=1&pageNo=1")
+        .then(data => {
+          this.aaa = this.aaa.concat(data.data.b.data);
+          $state.loaded();   //这次加载完毕
+          i++;
+          if (i == 3) {
+            $state.completed("全部加载完了");
+          }
+        });
+    }
 ```
 
 
